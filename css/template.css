@@ -1,0 +1,565 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+strong, b, h1 {
+  font-family: 'Play', sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+.header h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 1.2;
+  border-bottom: 2px solid #858f97;
+  padding-bottom: 15px;
+  margin-top: 5rem;
+}
+
+.control-text p {
+  padding-top: 10px;
+}
+
+h1 bold, .title-bold bold {
+  color: #87d2f6;
+  font-weight: 800;
+}
+
+.title-bold {
+  font-size: 30px;
+  color: #fff;
+}
+
+h2 {
+  color: #ffa000;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+.nav>li {
+  float: left;
+}
+
+.lang {
+  background: url(../img/lang.png) no-repeat left center #87d2f6;
+  min-height: 60px;
+  width: 45px;
+  float: left;
+  margin-top: -20px;
+  border-radius: 0 0px 25px 22px;
+}
+
+.phone-number-top {
+  float: left;
+  width: 100%;
+}
+
+.lang a {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 50px;
+  color: #fff;
+  font-size: 12px;
+}
+
+.order {
+  float: left;
+  margin-left: 0px;
+  width: 150px;
+  text-align: center;
+}
+
+.order a {
+  color: #fff;
+}
+
+.order a.phone-number-top {
+  color: #7fc5e7;
+}
+
+.order a.order-top-btn {
+  background: #86d0f4;
+  font-size: 14px;
+  padding: 1px 7px;
+  border-radius: 5px;
+  margin-bottom: 3px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.top-header, .top-menu {
+  background: rgba(0, 0, 0, 0.4);
+  margin-top: 15px;
+  padding: 5px 0;
+}
+
+.top-header {
+  padding: 5px 0;
+}
+
+.top-menu {
+  padding: 0;
+}
+
+.header {
+  background: url("../img/bg-1.jpg") no-repeat top center;
+  max-width: 1240px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.nav>li>a {
+  color: #fff;
+  padding: 0px 11px;
+  font-size: 14px;
+}
+
+.control-text p {
+  color: #fff;
+}
+
+.form-order {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.our-offer, .interface, .messanger, .availability, .REQUEST-CALL {
+  max-width: 1240px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.form-group label {
+  color: #bababa;
+  line-height: 1;
+  font-weight: 100;
+}
+
+.header .btn-primary {
+  background: #9dd1ea;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #9dd1ea 1%, #8db5dc 50%, #8db5dc 51%, #88abd8 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #9dd1ea 1%, #8db5dc 50%, #8db5dc 51%, #88abd8 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #9dd1ea 1%, #8db5dc 50%, #8db5dc 51%, #88abd8 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd1ea', endColorstr='#88abd8', GradientType=0);
+  /* IE6-9 */
+  border: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 18px;
+  padding: 5px 30px;
+}
+
+
+/* our offer*/
+
+.our-offer {
+  background: url("../img/bg-2.jpg") no-repeat top center;
+  min-height: 465px;
+  padding-top: 8rem;
+}
+
+.wrap-offer {
+  background: rgba(0, 0, 0, 0.5);
+  float: left;
+  padding: 2rem;
+}
+
+.wrap-offer .title-bold {
+  font-weight: 700;
+}
+
+.wrap-offer .description-offer {
+  font-size: 24px;
+}
+
+.our-offer .order-advice {
+  margin-top: 19rem;
+  font-size: 30px;
+  padding: 10px 40px;
+  margin-left: 13rem;
+}
+
+
+/*  interface */
+
+.interface {
+  background: url("../img/bg-3.jpg") no-repeat top center;
+  min-height: 540px;
+  padding-top: 16rem;
+}
+
+.wrap-interface {
+  float: left;
+  background: url("../img/border-interface.png") no-repeat left center;
+  min-height: 310px;
+  max-width: 460px;
+  padding: 0 20px;
+}
+
+.wrap-interface .title-bold {
+  font-weight: 800;
+  line-height: 1;
+  padding-bottom: 50px;
+  margin-top: -23px;
+  margin-left: -23px;
+}
+
+.description-offer, .description-interface {
+  color: #fff;
+}
+
+
+/*  messanger */
+
+.messanger {
+  background: url("../img/bg-4.jpg") no-repeat top center;
+  min-height: 478px;
+  padding-top: 7rem;
+}
+
+.wrap-messanger-1 {
+  background: -moz-linear-gradient(right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff', GradientType=1);
+  /* IE6-9 */
+  float: right;
+  width: 50%;
+}
+
+.wrap-messanger-2 {
+  background: url("../img/border-messanger.png") no-repeat left center;
+  min-height: 195px;
+  padding-left: 40px;
+}
+
+.messanger .title-bold {
+  font-size: 25px;
+  color: #6b8897;
+  padding-left: 104px;
+  padding-top: 12px;
+  padding-bottom: 25px;
+  line-height: 1;
+}
+
+.description-messanger {
+  color: #6b8897;
+  padding-left: 17px;
+  width: 70%;
+  padding-top: 18px;
+}
+
+
+/*  availability */
+
+.availability {
+  background: url("../img/bg-5.jpg") no-repeat top center;
+  min-height: 540px;
+  padding-top: 4rem;
+}
+
+.wrap-availability {
+  float: left;
+  width: 50%;
+  background: url("../img/border-availability.png") no-repeat center center;
+  height: 311px;
+  padding: 15px 4px;
+}
+
+.description-availability {
+  padding: 20px 30px;
+}
+
+.wrap-availability .order-advice {
+  margin-top: 100px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.wrap-availability div {
+  color: #fff;
+}
+
+.order-advice {
+  background: #9dd1ea;
+  background: -moz-linear-gradient(top, #9dd1ea 1%, #8db5dc 50%, #8db5dc 51%, #88abd8 100%);
+  background: -webkit-linear-gradient(top, #9dd1ea 1%, #8db5dc 50%, #8db5dc 51%, #88abd8 100%);
+  background: linear-gradient(to bottom, #9dd1ea 1%, #8db5dc 50%, #8db5dc 51%, #88abd8 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd1ea', endColorstr='#88abd8', GradientType=0);
+  border: none;
+  font-size: 18px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  color: #fff;
+  display: inline-block;
+}
+
+
+/*  REQUEST A CALL */
+
+.REQUEST-CALL {
+  background: url("../img/bg-6.jpg") no-repeat top center;
+  min-height: 640px;
+  padding-top: 150px;
+}
+
+.REQUEST-CALL form {
+  float: right;
+	max-width: 320px;
+width: 100%;
+}
+
+.title-request {
+  font-size: 30px;
+  color: #fff;
+  border-bottom: 3px solid #fff;
+  padding-left: 30rem;
+}
+
+.REQUEST-CALL .btn.btn-primary {
+  background: #9dd1ea;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #9dd1ea 1%, #8db5dc 50%, #8db5dc 51%, #88abd8 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #9dd1ea 1%, #8db5dc 50%, #8db5dc 51%, #88abd8 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #9dd1ea 1%, #8db5dc 50%, #8db5dc 51%, #88abd8 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd1ea', endColorstr='#88abd8', GradientType=0);
+  /* IE6-9 */
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  padding: 20px 32px;
+  color: #fff;
+  margin-left: -397px;
+  margin-top: -160px;
+}
+
+.REQUEST-CALL .form-control {
+  margin-bottom: 38px;
+}
+
+.description-request {
+  color: #fff;
+  font-size: 18px;
+  padding-left: 300px;
+  padding-top: 10px;
+}
+
+.REQUEST-CALL .form-group {
+  margin-top: -90px;
+}
+
+.wrap-description-request {
+  overflow: hidden;
+  width: 50%;
+}
+
+
+/*footer*/
+
+footer {
+  background-color: #2d4958;
+}
+
+footer li a, .nav-f-2 a {
+  color: #fff;
+}
+
+footer li {
+  list-style: none;
+  float: left;
+  padding-right: 10px;
+}
+
+.nav-f-1, .nav-f-2 {
+  float: left;
+  overflow: hidden;
+}
+
+.nav-f-1 {
+  padding-top: 100px;
+}
+
+.nav-f-2 {
+  padding-top: 25px;
+}
+
+.f-block a {
+  float: left;
+  width: 100%;
+}
+
+.f-block {
+  float: left;
+}
+
+
+/**for small and medium devices***/
+
+@media screen and (max-width:991px) {
+	.order {
+    max-width: 60%;
+		width: auto;
+    margin-left: 2rem;
+		margin-top: 10px;
+}
+  .form-order {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .logo {
+    float: left;
+  }
+  .wrap-lang-fl-right {
+    float: left;
+    width: 53%;
+  }
+  .top-header, .top-menu {
+    margin-top: 0px;
+    padding: 0;
+  }
+  .lang {
+    margin-top: 0px;
+  }
+  .order a.order-top-btn {
+    margin-bottom: 3px;
+    display: block;
+  }
+  .our-offer .order-advice {
+    margin-top: 6rem;
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  .wrap-interface {
+    background: none;
+  }
+  .wrap-interface .title-bold {
+    margin: 0px;
+  }
+  .interface {
+    padding-top: 10rem;
+  }
+  .wrap-messanger-2 {
+    background: none;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .messanger {
+    padding-top: 3rem;
+  }
+  .messanger .title-bold {
+    padding-left: 0;
+  }
+  .wrap-messanger-1 {
+    float: none;
+    width: 100%;
+  }
+  .availability {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .wrap-availability {
+    width: 100%;
+    background: none;
+    padding: 0;
+  }
+  .description-availability {
+    padding: 20px 0px;
+  }
+  .REQUEST-CALL .form-group {
+    margin-top: 0px;
+  }
+  .title-request {
+    padding-left: 0rem;
+  }
+  .description-request {
+    padding-left: 0px;
+  }
+  .wrap-description-request {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .REQUEST-CALL form {
+    float: left;
+    width: 100%;
+    padding: 5px 20px;
+  }
+  .nav-f-1 {
+    padding-top: 20px;
+  }
+  footer li {
+    list-style: none;
+    float: left;
+    padding-right: 30px;
+  }
+}
+
+
+/**for Large devices***/
+
+@media screen and (min-width:992px) {
+  .wrap-offer {
+    width: 50%;
+    padding-top: 10px;
+    padding-left: 20rem;
+  }
+  .header .btn-primary {
+    font-size: 25px;
+    padding: 16px 50px;
+    border-radius: 10px;
+  }
+  footer {
+    background: url("../img/bg-footer.jpg") repeat-x top center;
+    min-height: 353px;
+  }
+  .header {
+    min-height: 640px;
+  }
+  .wrap-lang-fl-right {
+    float: right;
+  }
+  .control-text {
+    float: right;
+    width: 50%;
+    padding: 0;
+  }
+  .self-left {
+    float: left;
+  }
+  .self-right {
+    float: right;
+  }
+  .header .self-right {
+    width: 325px;
+    margin-right: 15rem;
+    margin-bottom: 0;
+  }
+  .form-order {
+    position: absolute;
+    bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
