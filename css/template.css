@@ -114,7 +114,7 @@ h2 {
 }
 
 .header {
-  background: url("../img/bg-1.jpg") no-repeat top center;
+/*  background: url("../img/bg-1.jpg") no-repeat top center;*/
   max-width: 1240px;
   margin: 0 auto;
   position: relative;
@@ -138,8 +138,12 @@ h2 {
   max-width: 1240px;
   margin: 0 auto;
   position: relative;
+  min-height: 400px;
 }
 
+.header {
+  min-height: 450px;
+}
 .form-group label {
   color: #bababa;
   line-height: 1;
@@ -168,8 +172,8 @@ h2 {
 /* our offer*/
 
 .our-offer {
-  background: url("../img/bg-2.jpg") no-repeat top center;
-  min-height: 465px;
+/*  background: url("../img/bg-2.jpg") no-repeat top center;*/
+/*  min-height: 465px;*/
   padding-top: 8rem;
 }
 
@@ -198,9 +202,9 @@ h2 {
 /*  interface */
 
 .interface {
-  background: url("../img/bg-3.jpg") no-repeat top center;
-  min-height: 540px;
-  padding-top: 16rem;
+/*  background: url("../img/bg-3.jpg") no-repeat top center;*/
+/*  min-height: 540px;*/
+  padding-top: 6rem;
 }
 
 .wrap-interface {
@@ -227,8 +231,8 @@ h2 {
 /*  messanger */
 
 .messanger {
-  background: url("../img/bg-4.jpg") no-repeat top center;
-  min-height: 478px;
+  /*background: url("../img/bg-4.jpg") no-repeat top center;*/
+/*  min-height: 478px;*/
   padding-top: 7rem;
 }
 
@@ -271,9 +275,9 @@ h2 {
 /*  availability */
 
 .availability {
-  background: url("../img/bg-5.jpg") no-repeat top center;
-  min-height: 540px;
-  padding-top: 4rem;
+/*  background: url("../img/bg-5.jpg") no-repeat top center;*/
+/*  min-height: 540px;*/
+  padding-top: 1rem;
 }
 
 .wrap-availability {
@@ -289,8 +293,8 @@ h2 {
 }
 
 .wrap-availability .order-advice {
-  margin-top: 100px;
-  padding: 20px;
+  margin-top: 90px;
+  padding: 15px;
   border-radius: 10px;
 }
 
@@ -317,9 +321,9 @@ h2 {
 /*  REQUEST A CALL */
 
 .REQUEST-CALL {
-  background: url("../img/bg-6.jpg") no-repeat top center;
-  min-height: 640px;
-  padding-top: 150px;
+  /*background: url("../img/bg-6.jpg") no-repeat top center;*/
+/*  min-height: 640px;*/
+  padding-top:5rem;
 }
 
 .REQUEST-CALL form {
@@ -534,9 +538,6 @@ footer li {
     background: url("../img/bg-footer.jpg") repeat-x top center;
     min-height: 353px;
   }
-  .header {
-    min-height: 640px;
-  }
   .wrap-lang-fl-right {
     float: right;
   }
@@ -558,8 +559,34 @@ footer li {
   }
   .form-order {
     position: absolute;
-    bottom: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    bottom: 6px;
+    padding-top: 7px;
+    padding-bottom: 7px;
   }
+}
+.parallax-container {
+    position: relative;
+    overflow: hidden;
+    height: 450px;
+    margin-bottom: -450px;
+}
+.parallax-container .parallax {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.parallax-container .parallax img {
+    display: none;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
 }
